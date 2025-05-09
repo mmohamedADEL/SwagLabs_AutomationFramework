@@ -1,6 +1,6 @@
 {
   "validLogin" : {
-    "username": "validuser",
-    "password": "validpassword"
+    "username": "standard_user",
+    "password": "secret_sauce"
   }
 }
