@@ -12,7 +12,7 @@
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>4.28.0</selenium.version>
+        <selenium.version>4.32.0</selenium.version>
         <Testng.version>7.10.2</Testng.version>
         <Gson.version>2.13.1</Gson.version>
         <slf4j.version>2.0.17</slf4j.version>
@@ -22,11 +22,21 @@
         <common_ioVersion>2.19.0</common_ioVersion>
         <aspectjweaver.version>1.9.24</aspectjweaver.version>
         <sureFire.version>3.5.3</sureFire.version>
-
+        <allure_maven.version>2.12.0</allure_maven.version>
+        <allure_pluginAPI.version>2.13.9</allure_pluginAPI.version>
     </properties>
     <build>
         <directory>Test-output/target</directory>
         <plugins>
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>${allure_maven.version}</version>
+                <configuration>
+                    <reportVersion>${allure.version}</reportVersion>
+                </configuration>
+
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -35,6 +45,9 @@
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectjweaver.version}/aspectjweaver-${aspectjweaver.version}.jar"
                     </argLine>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testRunner/E2ETests.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
                 <dependencies>
                     <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
