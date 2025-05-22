@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import utilities.Utility;
 
 public class CheckoutPage {
     private final WebDriver driver;
@@ -10,6 +11,7 @@ public class CheckoutPage {
     private final By postalCodeField = By.id("postal-code");
     private final By continueButton = By.xpath("//input[@type='submit']");
     private final By cancelButton = By.xpath("//a[text()='CANCEL']");
+    private final By errorMessage = By.xpath("//h3[@data-test='error']");
 
     public CheckoutPage(WebDriver driver) {
         this.driver = driver;
@@ -40,5 +42,13 @@ public class CheckoutPage {
         enterPostalCode(postalCode);
         return this;
     }
+    public String getErrorMessage() {
+        return Utility.getTextFromElement(driver, errorMessage);
+    }
+    public CheckoutPage waitForErrorMessage() {
+        Utility.waitForVisibility(driver, errorMessage);
+        return this;
+    }
+
 
 }
