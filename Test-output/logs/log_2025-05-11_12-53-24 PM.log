@@ -1,0 +1,6 @@
+[INFO] 11-05-2025 12:53:24 [main] [Tests.OverviewTest.setUp(OverviewTest.java:23)] - Browser is launched
+[INFO] 11-05-2025 12:53:26 [main] [Tests.OverviewTest.setUp(OverviewTest.java:25)] - Redirected to the URL
+[INFO] 11-05-2025 12:53:28 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:69)] - Browser is closed
+[INFO] 11-05-2025 12:53:28 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: redirectToFinishPage
+[INFO] 11-05-2025 12:53:29 [main] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: redirectToFinishPage
+[INFO] 11-05-2025 12:53:29 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: SwagLabs_AutomationFramework

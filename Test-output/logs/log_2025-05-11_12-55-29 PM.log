@@ -1,0 +1,25 @@
+[INFO] 11-05-2025 12:55:29 [main] [Tests.HomePageTest.setUp(HomePageTest.java:24)] - Browser is launched
+[INFO] 11-05-2025 12:55:30 [main] [Tests.HomePageTest.setUp(HomePageTest.java:26)] - Redirected to the URL
+[INFO] 11-05-2025 12:55:31 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: addRandomProductToCart
+[INFO] 11-05-2025 12:55:34 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 11-05-2025 12:55:34 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 11-05-2025 12:55:35 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 11-05-2025 12:55:35 [main] [pages.HomePage.getNumberOfSelectedProducts(HomePage.java:46)] - number of selected products: 3
+[INFO] 11-05-2025 12:55:35 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: addRandomProductToCart
+[INFO] 11-05-2025 12:55:40 [main] [Tests.HomePageTest.tearDown(HomePageTest.java:67)] - Browser is closed
+[INFO] 11-05-2025 12:55:47 [main] [Tests.HomePageTest.setUp(HomePageTest.java:24)] - Browser is launched
+[INFO] 11-05-2025 12:55:48 [main] [Tests.HomePageTest.setUp(HomePageTest.java:26)] - Redirected to the URL
+[INFO] 11-05-2025 12:55:48 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: compareNumberOfProducts
+[INFO] 11-05-2025 12:55:51 [main] [pages.HomePage.AddAllProductsToCart(HomePage.java:34)] - number of products: 6
+[INFO] 11-05-2025 12:55:53 [main] [pages.HomePage.getNumberOfSelectedProducts(HomePage.java:46)] - number of selected products: 6
+[INFO] 11-05-2025 12:55:53 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: compareNumberOfProducts
+[INFO] 11-05-2025 12:55:55 [main] [Tests.HomePageTest.tearDown(HomePageTest.java:67)] - Browser is closed
+[INFO] 11-05-2025 12:56:03 [main] [Tests.HomePageTest.setUp(HomePageTest.java:24)] - Browser is launched
+[INFO] 11-05-2025 12:56:05 [main] [Tests.HomePageTest.setUp(HomePageTest.java:26)] - Redirected to the URL
+[INFO] 11-05-2025 12:56:05 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: redirectToCart
+[INFO] 11-05-2025 12:56:09 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 11-05-2025 12:56:09 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 11-05-2025 12:56:10 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 11-05-2025 12:56:11 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: redirectToCart
+[INFO] 11-05-2025 12:56:14 [main] [Tests.HomePageTest.tearDown(HomePageTest.java:67)] - Browser is closed
+[INFO] 11-05-2025 12:56:14 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: SwagLabs_AutomationFramework

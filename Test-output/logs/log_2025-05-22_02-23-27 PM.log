@@ -1,0 +1,6 @@
+[INFO] 22-05-2025 14:23:27 [main] [Tests.OverviewTest.setUp(OverviewTest.java:23)] - Browser is launched
+[INFO] 22-05-2025 14:23:29 [main] [Tests.OverviewTest.setUp(OverviewTest.java:25)] - Redirected to the URL
+[INFO] 22-05-2025 14:23:30 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyCart
+[INFO] 22-05-2025 14:23:34 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: checkoutWithEmptyCart
+[INFO] 22-05-2025 14:23:35 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:80)] - Browser is closed
+[INFO] 22-05-2025 14:23:35 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: SwagLabs_AutomationFramework

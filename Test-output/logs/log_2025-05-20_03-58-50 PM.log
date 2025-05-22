@@ -1,0 +1,22 @@
+[INFO] 20-05-2025 15:58:51 [main] [Tests.OverviewTest.setUp(OverviewTest.java:23)] - Browser is launched
+[INFO] 20-05-2025 15:58:54 [main] [Tests.OverviewTest.setUp(OverviewTest.java:25)] - Redirected to the URL
+[INFO] 20-05-2025 15:58:54 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkTotalEqualSubPlusTax
+[INFO] 20-05-2025 15:58:57 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 20-05-2025 15:58:57 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 20-05-2025 15:58:58 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 20-05-2025 15:59:02 [main] [pages.OverviewPage.getSubtotalPrice(OverviewPage.java:27)] - Subtotal price: 95.97
+[INFO] 20-05-2025 15:59:02 [main] [pages.OverviewPage.getTaxPrice(OverviewPage.java:32)] - Tax price: 7.68
+[INFO] 20-05-2025 15:59:02 [main] [pages.OverviewPage.getTotalPrice(OverviewPage.java:37)] - Total price: 103.65
+[INFO] 20-05-2025 15:59:02 [main] [Tests.OverviewTest.checkTotalEqualSubPlusTax(OverviewTest.java:45)] - Total price is equal to subtotal + tax
+[INFO] 20-05-2025 15:59:02 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: checkTotalEqualSubPlusTax
+[INFO] 20-05-2025 15:59:07 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:69)] - Browser is closed
+[INFO] 20-05-2025 15:59:21 [main] [Tests.OverviewTest.setUp(OverviewTest.java:23)] - Browser is launched
+[INFO] 20-05-2025 15:59:40 [main] [Tests.OverviewTest.setUp(OverviewTest.java:25)] - Redirected to the URL
+[INFO] 20-05-2025 15:59:40 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: redirectToFinishPage
+[INFO] 20-05-2025 15:59:46 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 20-05-2025 15:59:47 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 20-05-2025 15:59:47 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 20-05-2025 15:59:51 [main] [pages.FinishPage.getConfirmationMessage(FinishPage.java:17)] - Confirmation message: THANK YOU FOR YOUR ORDER
+[INFO] 20-05-2025 15:59:51 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: redirectToFinishPage
+[INFO] 20-05-2025 16:00:05 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:69)] - Browser is closed
+[INFO] 20-05-2025 16:00:07 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: Surefire test

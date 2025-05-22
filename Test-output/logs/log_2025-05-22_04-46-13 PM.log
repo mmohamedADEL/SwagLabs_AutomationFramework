@@ -1,0 +1,13 @@
+[INFO] 22-05-2025 16:46:13 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:46:14 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:46:14 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 16:46:17 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 22-05-2025 16:46:17 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 16:46:17 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 16:46:20 [main] [pages.OverviewPage.getSubtotalPrice(OverviewPage.java:27)] - Subtotal price: 41.97
+[INFO] 22-05-2025 16:46:20 [main] [pages.OverviewPage.getTaxPrice(OverviewPage.java:32)] - Tax price: 3.36
+[INFO] 22-05-2025 16:46:20 [main] [pages.OverviewPage.getTotalPrice(OverviewPage.java:37)] - Total price: 45.33
+[INFO] 22-05-2025 16:46:20 [main] [Tests.OverviewTest.checkTotalEqualSubPlusTax(OverviewTest.java:48)] - Total price is equal to subtotal + tax
+[INFO] 22-05-2025 16:46:21 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 16:46:23 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:133)] - Browser is closed
+[INFO] 22-05-2025 16:46:23 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: SwagLabs_AutomationFramework

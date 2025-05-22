@@ -1,0 +1,127 @@
+[INFO] 22-05-2025 17:17:00 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - edge browser is launched
+[INFO] 22-05-2025 17:17:02 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:17:02 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 17:17:05 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 17:17:05 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 17:17:06 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 17:17:10 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - chrome browser is launched
+[INFO] 22-05-2025 17:17:10 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:17:10 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 17:17:15 [TestNG-tests-2] [pages.OverviewPage.getSubtotalPrice(OverviewPage.java:27)] - Subtotal price: 81.97
+[INFO] 22-05-2025 17:17:15 [TestNG-tests-2] [pages.OverviewPage.getTaxPrice(OverviewPage.java:32)] - Tax price: 6.56
+[INFO] 22-05-2025 17:17:15 [TestNG-tests-2] [pages.OverviewPage.getTotalPrice(OverviewPage.java:37)] - Total price: 88.53
+[INFO] 22-05-2025 17:17:15 [TestNG-tests-2] [Tests.OverviewTest.checkTotalEqualSubPlusTax(OverviewTest.java:57)] - Total price is equal to subtotal + tax
+[INFO] 22-05-2025 17:17:15 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 22-05-2025 17:17:15 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 17:17:15 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 17:17:16 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 17:17:18 [TestNG-tests-2] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:17:22 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - edge browser is launched
+[INFO] 22-05-2025 17:17:23 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:17:23 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyCart
+[ERROR] 22-05-2025 17:17:26 [TestNG-tests-1] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 17:17:27 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 17:17:29 [TestNG-tests-1] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:17:31 [TestNG-tests-2] [Tests.OverviewTest.checkoutWithEmptyCart(OverviewTest.java:86)] - current url is :https://www.saucedemo.com/v1/checkout-step-one.html
+[ERROR] 22-05-2025 17:17:31 [TestNG-tests-2] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: checkoutWithEmptyCart
+[INFO] 22-05-2025 17:17:31 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: checkoutWithEmptyCart
+[INFO] 22-05-2025 17:17:38 [TestNG-tests-2] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:17:38 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - chrome browser is launched
+[INFO] 22-05-2025 17:17:40 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:17:40 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyCart
+[INFO] 22-05-2025 17:17:48 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - edge browser is launched
+[INFO] 22-05-2025 17:17:49 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:17:49 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyFields
+[INFO] 22-05-2025 17:17:52 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 22-05-2025 17:17:53 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 17:17:53 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 17:17:57 [TestNG-tests-2] [Tests.OverviewTest.checkoutWithEmptyFields(OverviewTest.java:100)] - current url is :https://www.saucedemo.com/v1/checkout-step-one.html
+[INFO] 22-05-2025 17:17:58 [TestNG-tests-2] [Tests.OverviewTest.checkoutWithEmptyFields(OverviewTest.java:104)] - Error message is: Error: First Name is required
+[INFO] 22-05-2025 17:17:58 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: checkoutWithEmptyFields
+[ERROR] 22-05-2025 17:17:59 [TestNG-tests-1] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: checkoutWithEmptyCart
+[INFO] 22-05-2025 17:18:00 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: checkoutWithEmptyCart
+[INFO] 22-05-2025 17:18:01 [TestNG-tests-2] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:18:01 [TestNG-tests-1] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:18:05 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - edge browser is launched
+[INFO] 22-05-2025 17:18:07 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:18:07 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: compareTotalPriceInHomeAndCart
+[INFO] 22-05-2025 17:18:12 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - chrome browser is launched
+[INFO] 22-05-2025 17:18:13 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 22-05-2025 17:18:13 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:18:13 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyFields
+[INFO] 22-05-2025 17:18:13 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 17:18:13 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 17:18:13 [TestNG-tests-2] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:69)] - number of selected 3
+[INFO] 22-05-2025 17:18:13 [TestNG-tests-2] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:74)] - Price of selected product: $9.99
+[INFO] 22-05-2025 17:18:13 [TestNG-tests-2] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:76)] - Total price after adding product: 9.99
+[INFO] 22-05-2025 17:18:13 [TestNG-tests-2] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:74)] - Price of selected product: $15.99
+[INFO] 22-05-2025 17:18:13 [TestNG-tests-2] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:76)] - Total price after adding product: 25.98
+[INFO] 22-05-2025 17:18:14 [TestNG-tests-2] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:74)] - Price of selected product: $49.99
+[INFO] 22-05-2025 17:18:14 [TestNG-tests-2] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:76)] - Total price after adding product: 75.97
+[INFO] 22-05-2025 17:18:14 [TestNG-tests-2] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:78)] - Total Price 75.97
+[INFO] 22-05-2025 17:18:14 [TestNG-tests-2] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:36)] - number of selected 3
+[INFO] 22-05-2025 17:18:15 [TestNG-tests-2] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:41)] - Price of selected product: 9.99
+[INFO] 22-05-2025 17:18:15 [TestNG-tests-2] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:43)] - Total price after adding product: 9.99
+[INFO] 22-05-2025 17:18:15 [TestNG-tests-2] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:41)] - Price of selected product: 15.99
+[INFO] 22-05-2025 17:18:15 [TestNG-tests-2] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:43)] - Total price after adding product: 25.98
+[INFO] 22-05-2025 17:18:15 [TestNG-tests-2] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:41)] - Price of selected product: 49.99
+[INFO] 22-05-2025 17:18:15 [TestNG-tests-2] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:43)] - Total price after adding product: 75.97
+[INFO] 22-05-2025 17:18:15 [TestNG-tests-2] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:45)] - Total Price 75.97
+[INFO] 22-05-2025 17:18:15 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: compareTotalPriceInHomeAndCart
+[INFO] 22-05-2025 17:18:16 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 22-05-2025 17:18:16 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 17:18:16 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 17:18:17 [TestNG-tests-2] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:18:20 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - edge browser is launched
+[INFO] 22-05-2025 17:18:21 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:18:22 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: redirectToFinishPage
+[INFO] 22-05-2025 17:18:25 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 22-05-2025 17:18:26 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 17:18:26 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[ERROR] 22-05-2025 17:18:26 [TestNG-tests-1] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: checkoutWithEmptyFields
+[INFO] 22-05-2025 17:18:27 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: checkoutWithEmptyFields
+[INFO] 22-05-2025 17:18:27 [TestNG-tests-1] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:18:30 [TestNG-tests-2] [pages.FinishPage.getConfirmationMessage(FinishPage.java:17)] - Confirmation message: THANK YOU FOR YOUR ORDER
+[INFO] 22-05-2025 17:18:30 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: redirectToFinishPage
+[INFO] 22-05-2025 17:18:33 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - chrome browser is launched
+[INFO] 22-05-2025 17:18:34 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:18:34 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: compareTotalPriceInHomeAndCart
+[INFO] 22-05-2025 17:18:35 [TestNG-tests-2] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:18:36 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 22-05-2025 17:18:36 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 22-05-2025 17:18:37 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 17:18:39 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - edge browser is launched
+[INFO] 22-05-2025 17:18:40 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:18:40 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 17:18:43 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 22-05-2025 17:18:44 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 22-05-2025 17:18:45 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 17:18:47 [TestNG-tests-2] [Tests.OverviewTest.validatePostalCodeNotAcceptString(OverviewTest.java:121)] - current url is :https://www.saucedemo.com/v1/checkout-step-two.html
+[INFO] 22-05-2025 17:18:47 [TestNG-tests-1] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:69)] - number of selected 0
+[ERROR] 22-05-2025 17:18:47 [TestNG-tests-2] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 17:18:48 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 17:18:50 [TestNG-tests-2] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:18:50 [TestNG-tests-2] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: EdgeTest
+[INFO] 22-05-2025 17:18:57 [TestNG-tests-1] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:78)] - Total Price 75.97
+[ERROR] 22-05-2025 17:18:58 [TestNG-tests-1] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: compareTotalPriceInHomeAndCart
+[INFO] 22-05-2025 17:18:58 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: compareTotalPriceInHomeAndCart
+[INFO] 22-05-2025 17:18:59 [TestNG-tests-1] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:19:03 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - chrome browser is launched
+[INFO] 22-05-2025 17:19:04 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:19:04 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: redirectToFinishPage
+[INFO] 22-05-2025 17:19:07 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 22-05-2025 17:19:07 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 17:19:07 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[ERROR] 22-05-2025 17:19:17 [TestNG-tests-1] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: redirectToFinishPage
+[INFO] 22-05-2025 17:19:18 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: redirectToFinishPage
+[INFO] 22-05-2025 17:19:22 [TestNG-tests-1] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:19:24 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - chrome browser is launched
+[INFO] 22-05-2025 17:19:26 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:19:26 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 17:19:28 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 22-05-2025 17:19:28 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 17:19:28 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[ERROR] 22-05-2025 17:19:38 [TestNG-tests-1] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 17:19:39 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 17:19:40 [TestNG-tests-1] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:19:40 [TestNG-tests-1] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: ChromeTest

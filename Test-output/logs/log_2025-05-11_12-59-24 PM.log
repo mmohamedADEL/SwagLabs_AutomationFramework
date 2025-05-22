@@ -1,0 +1,10 @@
+[INFO] 11-05-2025 12:59:24 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 11-05-2025 12:59:27 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 11-05-2025 12:59:27 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: redirectToFinishPage
+[INFO] 11-05-2025 12:59:30 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 11-05-2025 12:59:30 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 11-05-2025 12:59:30 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 11-05-2025 12:59:49 [main] [pages.FinishPage.getConfirmationMessage(FinishPage.java:17)] - Confirmation message: THANK YOU FOR YOUR ORDER
+[INFO] 11-05-2025 12:59:49 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: redirectToFinishPage
+[INFO] 11-05-2025 12:59:54 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:72)] - Browser is closed
+[INFO] 11-05-2025 12:59:54 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: SwagLabs_AutomationFramework

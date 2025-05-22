@@ -1,0 +1,11 @@
+[INFO] 22-05-2025 16:31:40 [main] [Tests.OverviewTest.setUp(OverviewTest.java:24)] - Browser is launched
+[INFO] 22-05-2025 16:31:41 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Redirected to the URL
+[INFO] 22-05-2025 16:31:41 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 16:31:44 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 16:31:44 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 16:31:44 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 16:31:47 [main] [Tests.OverviewTest.validatePostalCodeNotAcceptString(OverviewTest.java:107)] - current url is :https://www.saucedemo.com/v1/checkout-step-one.html
+[INFO] 22-05-2025 16:31:47 [main] [Tests.OverviewTest.validatePostalCodeNotAcceptString(OverviewTest.java:111)] - Error message is: Error: First Name is required
+[INFO] 22-05-2025 16:31:47 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 16:31:49 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:118)] - Browser is closed
+[INFO] 22-05-2025 16:31:49 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: SwagLabs_AutomationFramework

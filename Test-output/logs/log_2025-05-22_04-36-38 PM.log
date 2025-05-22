@@ -1,0 +1,11 @@
+[INFO] 22-05-2025 16:36:38 [main] [Tests.OverviewTest.setUp(OverviewTest.java:24)] - Browser is launched
+[INFO] 22-05-2025 16:36:39 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Redirected to the URL
+[INFO] 22-05-2025 16:36:40 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 16:36:42 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 22-05-2025 16:36:42 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 16:36:43 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 16:36:45 [main] [Tests.OverviewTest.validatePostalCodeNotAcceptString(OverviewTest.java:110)] - current url is :https://www.saucedemo.com/v1/checkout-step-two.html
+[ERROR] 22-05-2025 16:36:45 [main] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 16:36:45 [main] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 16:36:51 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:117)] - Browser is closed
+[INFO] 22-05-2025 16:36:51 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: SwagLabs_AutomationFramework

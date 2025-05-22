@@ -1,0 +1,7 @@
+[INFO] 22-05-2025 14:48:23 [main] [Tests.OverviewTest.setUp(OverviewTest.java:23)] - Browser is launched
+[INFO] 22-05-2025 14:48:24 [main] [Tests.OverviewTest.setUp(OverviewTest.java:25)] - Redirected to the URL
+[INFO] 22-05-2025 14:48:25 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyCart
+[INFO] 22-05-2025 14:48:28 [main] [Tests.OverviewTest.checkoutWithEmptyCart(OverviewTest.java:74)] - current url is :https://www.saucedemo.com/v1/checkout-step-one.html
+[INFO] 22-05-2025 14:48:28 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: checkoutWithEmptyCart
+[INFO] 22-05-2025 14:48:31 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:81)] - Browser is closed
+[INFO] 22-05-2025 14:48:31 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: SwagLabs_AutomationFramework

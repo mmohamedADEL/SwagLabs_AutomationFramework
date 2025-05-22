@@ -1,0 +1,49 @@
+[INFO] 22-05-2025 16:39:16 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:39:17 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:39:17 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 16:39:20 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 16:39:20 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 16:39:20 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 16:39:23 [main] [pages.OverviewPage.getSubtotalPrice(OverviewPage.java:27)] - Subtotal price: 39.97
+[INFO] 22-05-2025 16:39:24 [main] [pages.OverviewPage.getTaxPrice(OverviewPage.java:32)] - Tax price: 3.2
+[INFO] 22-05-2025 16:39:24 [main] [pages.OverviewPage.getTotalPrice(OverviewPage.java:37)] - Total price: 43.17
+[ERROR] 22-05-2025 16:39:24 [main] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 16:39:24 [main] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 16:39:28 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:132)] - Browser is closed
+[INFO] 22-05-2025 16:39:36 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:39:37 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:39:37 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyCart
+[INFO] 22-05-2025 16:39:40 [main] [Tests.OverviewTest.checkoutWithEmptyCart(OverviewTest.java:77)] - current url is :https://www.saucedemo.com/v1/checkout-step-one.html
+[ERROR] 22-05-2025 16:39:41 [main] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: checkoutWithEmptyCart
+[INFO] 22-05-2025 16:39:41 [main] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: checkoutWithEmptyCart
+[INFO] 22-05-2025 16:39:43 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:132)] - Browser is closed
+[INFO] 22-05-2025 16:39:45 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:39:47 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:39:48 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyFields
+[INFO] 22-05-2025 16:39:50 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 16:39:50 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 16:39:50 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 16:39:52 [main] [Tests.OverviewTest.checkoutWithEmptyFields(OverviewTest.java:91)] - current url is :https://www.saucedemo.com/v1/checkout-step-one.html
+[INFO] 22-05-2025 16:39:52 [main] [Tests.OverviewTest.checkoutWithEmptyFields(OverviewTest.java:95)] - Error message is: Error: First Name is required
+[INFO] 22-05-2025 16:39:52 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: checkoutWithEmptyFields
+[INFO] 22-05-2025 16:39:55 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:132)] - Browser is closed
+[INFO] 22-05-2025 16:39:58 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:39:59 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:39:59 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: redirectToFinishPage
+[INFO] 22-05-2025 16:40:01 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 22-05-2025 16:40:01 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 22-05-2025 16:40:02 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 16:40:04 [main] [pages.FinishPage.getConfirmationMessage(FinishPage.java:17)] - Confirmation message: THANK YOU FOR YOUR ORDER
+[INFO] 22-05-2025 16:40:04 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: redirectToFinishPage
+[INFO] 22-05-2025 16:40:06 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:132)] - Browser is closed
+[INFO] 22-05-2025 16:40:08 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:40:09 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:40:09 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 16:40:11 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 22-05-2025 16:40:12 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 16:40:12 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 16:40:14 [main] [Tests.OverviewTest.validatePostalCodeNotAcceptString(OverviewTest.java:112)] - current url is :https://www.saucedemo.com/v1/checkout-step-two.html
+[ERROR] 22-05-2025 16:40:14 [main] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 16:40:14 [main] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 16:40:16 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:132)] - Browser is closed
+[INFO] 22-05-2025 16:40:16 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: SwagLabs_AutomationFramework

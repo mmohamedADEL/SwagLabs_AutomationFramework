@@ -1,0 +1,23 @@
+[INFO] 22-05-2025 17:31:04 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - edge browser is launched
+[INFO] 22-05-2025 17:31:06 [TestNG-tests-1] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:31:06 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:31:07 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 17:31:07 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 17:31:10 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 2
+[INFO] 22-05-2025 17:31:10 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 17:31:11 [TestNG-tests-2] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 17:31:13 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 22-05-2025 17:31:13 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 17:31:13 [TestNG-tests-1] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 17:31:15 [TestNG-tests-2] [pages.OverviewPage.getSubtotalPrice(OverviewPage.java:27)] - Subtotal price: 67.97
+[INFO] 22-05-2025 17:31:15 [TestNG-tests-2] [pages.OverviewPage.getTaxPrice(OverviewPage.java:32)] - Tax price: 5.44
+[INFO] 22-05-2025 17:31:15 [TestNG-tests-2] [pages.OverviewPage.getTotalPrice(OverviewPage.java:37)] - Total price: 73.41
+[INFO] 22-05-2025 17:31:15 [TestNG-tests-2] [Tests.OverviewTest.checkTotalEqualSubPlusTax(OverviewTest.java:57)] - Total price is equal to subtotal + tax
+[INFO] 22-05-2025 17:31:15 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 17:31:18 [TestNG-tests-2] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed
+[INFO] 22-05-2025 17:31:25 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:32)] - edge browser is launched
+[ERROR] 22-05-2025 17:31:27 [TestNG-tests-1] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 17:31:29 [TestNG-tests-2] [Tests.OverviewTest.setUp(OverviewTest.java:36)] - Redirected to the URL: https://www.saucedemo.com/v1/index.html
+[INFO] 22-05-2025 17:31:29 [TestNG-tests-2] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyCart
+[INFO] 22-05-2025 17:31:37 [TestNG-tests-1] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 17:31:41 [TestNG-tests-1] [Tests.OverviewTest.tearDown(OverviewTest.java:142)] - Browser is closed

@@ -1,0 +1,11 @@
+[INFO] 22-05-2025 16:09:29 [main] [Tests.OverviewTest.setUp(OverviewTest.java:24)] - Browser is launched
+[INFO] 22-05-2025 16:09:30 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Redirected to the URL
+[INFO] 22-05-2025 16:09:31 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyFields
+[INFO] 22-05-2025 16:09:33 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 16:09:34 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 16:09:34 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 16:09:36 [main] [Tests.OverviewTest.checkoutWithEmptyFields(OverviewTest.java:89)] - current url is :https://www.saucedemo.com/v1/checkout-step-one.html
+[INFO] 22-05-2025 16:09:36 [main] [Tests.OverviewTest.checkoutWithEmptyFields(OverviewTest.java:93)] - Error message is: Error: First Name is required
+[INFO] 22-05-2025 16:09:36 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: checkoutWithEmptyFields
+[INFO] 22-05-2025 16:09:39 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:100)] - Browser is closed
+[INFO] 22-05-2025 16:09:39 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: SwagLabs_AutomationFramework

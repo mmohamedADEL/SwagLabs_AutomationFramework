@@ -1,0 +1,73 @@
+[INFO] 22-05-2025 16:46:56 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:46:56 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:46:57 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 16:47:01 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 22-05-2025 16:47:02 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 16:47:02 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 16:47:05 [main] [pages.OverviewPage.getSubtotalPrice(OverviewPage.java:27)] - Subtotal price: 87.97
+[INFO] 22-05-2025 16:47:05 [main] [pages.OverviewPage.getTaxPrice(OverviewPage.java:32)] - Tax price: 7.04
+[INFO] 22-05-2025 16:47:05 [main] [pages.OverviewPage.getTotalPrice(OverviewPage.java:37)] - Total price: 95.01
+[INFO] 22-05-2025 16:47:05 [main] [Tests.OverviewTest.checkTotalEqualSubPlusTax(OverviewTest.java:48)] - Total price is equal to subtotal + tax
+[INFO] 22-05-2025 16:47:05 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: checkTotalEqualSubPlusTax
+[INFO] 22-05-2025 16:47:07 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:133)] - Browser is closed
+[INFO] 22-05-2025 16:47:13 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:47:14 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:47:14 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyCart
+[INFO] 22-05-2025 16:47:18 [main] [Tests.OverviewTest.checkoutWithEmptyCart(OverviewTest.java:77)] - current url is :https://www.saucedemo.com/v1/checkout-step-one.html
+[ERROR] 22-05-2025 16:47:18 [main] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: checkoutWithEmptyCart
+[INFO] 22-05-2025 16:47:18 [main] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: checkoutWithEmptyCart
+[INFO] 22-05-2025 16:47:20 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:133)] - Browser is closed
+[INFO] 22-05-2025 16:47:24 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:47:25 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:47:25 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: checkoutWithEmptyFields
+[INFO] 22-05-2025 16:47:28 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 16:47:28 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 16:47:29 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 16:47:31 [main] [Tests.OverviewTest.checkoutWithEmptyFields(OverviewTest.java:91)] - current url is :https://www.saucedemo.com/v1/checkout-step-one.html
+[INFO] 22-05-2025 16:47:31 [main] [Tests.OverviewTest.checkoutWithEmptyFields(OverviewTest.java:95)] - Error message is: Error: First Name is required
+[INFO] 22-05-2025 16:47:31 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: checkoutWithEmptyFields
+[INFO] 22-05-2025 16:47:34 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:133)] - Browser is closed
+[INFO] 22-05-2025 16:47:37 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:47:38 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:47:38 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: compareTotalPriceInHomeAndCart
+[INFO] 22-05-2025 16:47:41 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 16:47:41 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 16:47:42 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 16:47:42 [main] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:69)] - number of selected 3
+[INFO] 22-05-2025 16:47:42 [main] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:74)] - Price of selected product: $15.99
+[INFO] 22-05-2025 16:47:42 [main] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:76)] - Total price after adding product: 15.99
+[INFO] 22-05-2025 16:47:43 [main] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:74)] - Price of selected product: $49.99
+[INFO] 22-05-2025 16:47:43 [main] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:76)] - Total price after adding product: 65.98
+[INFO] 22-05-2025 16:47:43 [main] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:74)] - Price of selected product: $15.99
+[INFO] 22-05-2025 16:47:43 [main] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:76)] - Total price after adding product: 81.97
+[INFO] 22-05-2025 16:47:43 [main] [pages.HomePage.getTotalPriceOfSelectedProducts(HomePage.java:78)] - Total Price 81.97
+[INFO] 22-05-2025 16:47:43 [main] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:36)] - number of selected 3
+[INFO] 22-05-2025 16:47:43 [main] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:41)] - Price of selected product: 15.99
+[INFO] 22-05-2025 16:47:43 [main] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:43)] - Total price after adding product: 15.99
+[INFO] 22-05-2025 16:47:43 [main] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:41)] - Price of selected product: 49.99
+[INFO] 22-05-2025 16:47:43 [main] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:43)] - Total price after adding product: 65.98
+[INFO] 22-05-2025 16:47:44 [main] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:41)] - Price of selected product: 15.99
+[INFO] 22-05-2025 16:47:44 [main] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:43)] - Total price after adding product: 81.97
+[INFO] 22-05-2025 16:47:44 [main] [pages.CartPage.getTotalPriceOfSelectedProducts(CartPage.java:45)] - Total Price 81.97
+[INFO] 22-05-2025 16:47:44 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: compareTotalPriceInHomeAndCart
+[INFO] 22-05-2025 16:47:46 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:133)] - Browser is closed
+[INFO] 22-05-2025 16:47:48 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:47:50 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:47:50 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: redirectToFinishPage
+[INFO] 22-05-2025 16:47:53 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 3
+[INFO] 22-05-2025 16:47:54 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 4
+[INFO] 22-05-2025 16:47:54 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 16:47:57 [main] [pages.FinishPage.getConfirmationMessage(FinishPage.java:17)] - Confirmation message: THANK YOU FOR YOUR ORDER
+[INFO] 22-05-2025 16:47:57 [main] [Listeners.ITestListenerClass.onTestSuccess(ITestListenerClass.java:13)] - Test passed: redirectToFinishPage
+[INFO] 22-05-2025 16:47:59 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:133)] - Browser is closed
+[INFO] 22-05-2025 16:48:02 [main] [Tests.OverviewTest.setUp(OverviewTest.java:26)] - Browser is launched
+[INFO] 22-05-2025 16:48:03 [main] [Tests.OverviewTest.setUp(OverviewTest.java:28)] - Redirected to the URL
+[INFO] 22-05-2025 16:48:04 [main] [Listeners.ITestListenerClass.onTestStart(ITestListenerClass.java:8)] - Test started: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 16:48:07 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 1
+[INFO] 22-05-2025 16:48:07 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 5
+[INFO] 22-05-2025 16:48:07 [main] [pages.HomePage.addRandomProductToCart(HomePage.java:57)] - Random product added to cart: 6
+[INFO] 22-05-2025 16:48:09 [main] [Tests.OverviewTest.validatePostalCodeNotAcceptString(OverviewTest.java:112)] - current url is :https://www.saucedemo.com/v1/checkout-step-two.html
+[ERROR] 22-05-2025 16:48:09 [main] [Listeners.InvokedMethodListenersClass.afterInvocation(InvokedMethodListenersClass.java:24)] - Test failed: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 16:48:10 [main] [Listeners.ITestListenerClass.onTestFailure(ITestListenerClass.java:27)] - Test failed: validatePostalCodeNotAcceptString
+[INFO] 22-05-2025 16:48:12 [main] [Tests.OverviewTest.tearDown(OverviewTest.java:133)] - Browser is closed
+[INFO] 22-05-2025 16:48:12 [main] [Listeners.ITestListenerClass.onFinish(ITestListenerClass.java:19)] - All tests finished: SwagLabs_AutomationFramework
